@@ -23,6 +23,7 @@ header{
     position: fixed;
     top: 0;
     border-bottom: 4px solid darkolivegreen;
+    z-index: 33;
 }
 nav ul{
     display: flex;
@@ -32,7 +33,7 @@ nav ul{
 nav ul li{
     font-size: 18px;
     margin-left: 60px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Comfortaa', cursive;
     line-height: 70px;
     transition: all .3s ease-in;
     cursor: pointer;
@@ -152,8 +153,125 @@ nav ul li:hover
     color: white;
     font-family: 'Noto Sans', sans-serif;
 }
+/********************* tree section ************************/
+
+.tree_section
+{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.tree_section h2
+{
+    font-size: 40px;
+    text-align: center;
+    color: dimgrey;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.temporada
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 10px 10px;
+    
+}
+.temporada img 
+{
+    width: 40%;
+    height: 90%;
+    margin-left: 30px;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    box-shadow: 4px  4px 15px dimgrey;
+}
+.temporada p 
+{
+    width: 50%;
+    height: 90%;
+    font-family: 'Noto Sans', sans-serif;
+    color: dimgrey;
+    margin-top: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.estaciones_right
+{
+    position: absolute;
+    font-size: 30px;
+    background-color: darkolivegreen;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 150px;
+    margin-top: 240px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.estaciones_left
+{
+    position: absolute;
+    font-size: 30px;
+    background-color: darkolivegreen;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 750px;
+    margin-top: 240px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/******************   four section ********************/
+.four_section
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+}
+.envios
+{
+    width: 90%;
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.envios p
+{
+    color: darkolivegreen;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+
+}
 
 
+.envios ion-icon 
+{
+    font-size: 50px;
+    margin-left: 280px;
+    color: darkolivegreen;
+   
+}
+
+/******************* footer ************************/
+
+.footer
+{
+    width: 100%;
+    height: 190px;
+    background-color: darkolivegreen;
+}
 
 
 
